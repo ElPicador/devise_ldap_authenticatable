@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{devise_ldap_authenticatable}
-  s.version = "0.4.10-pre"
+  s.name = "devise_ldap_authenticatable"
+  s.version = "0.4.10"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Curtis Schiewek", "Daniel McNevin"]
-  s.date = %q{2011-07-06}
-  s.description = %q{LDAP authentication module for Devise}
-  s.email = %q{curtis.schiewek@gmail.com}
+  s.date = "2011-10-03"
+  s.description = "LDAP authentication module for Devise"
+  s.email = "curtis.schiewek@gmail.com"
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -109,13 +109,12 @@ Gem::Specification.new do |s|
     "test/rails_app/test/unit/user_test.rb",
     "test/test_helper.rb"
   ]
-  s.homepage = %q{http://github.com/cschiewek/devise_ldap_authenticatable}
+  s.homepage = "http://github.com/cschiewek/devise_ldap_authenticatable"
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
-  s.summary = %q{LDAP authentication module for Devise}
+  s.rubygems_version = "1.8.10"
+  s.summary = "LDAP authentication module for Devise"
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
